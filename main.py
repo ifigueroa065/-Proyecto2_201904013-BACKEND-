@@ -23,7 +23,7 @@ USERS.append(Us('Usuario','Maestro','admin','admin','0'))
 
 @app.route('/', methods=['GET'])
 def Rutainicial():
-    return('PAGINA INICIAL')
+    return('<h1>PAGINA INICIAL<h1>')
 
 #VISTA GENERAL
 @app.route('/Usuario', methods=['GET'])
